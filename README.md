@@ -1,16 +1,42 @@
-# React + Vite
+# 🌎 World Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+World Explorer es una aplicación web tipo SPA desarrollada con React y Vite.  
+La aplicación consume datos desde la API pública REST Countries y muestra información de países como nombre, bandera, región y nombre oficial.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías usadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React 19
+- Vite
+- React Router DOM
+- Axios
+- Shadcn UI
+- Tailwind CSS
+- Lucide React
+- REST Countries API
 
-## React Compiler
+## 📌 Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Página Home con hero de presentación.
+- Consumo de API pública de países.
+- Listado de países destacados en la página principal.
+- Ruta `/entities` con el listado completo de países.
+- Visualización de bandera, nombre, región y nombre oficial.
+- Navegación entre rutas usando React Router.
+- Estilos aplicados con Shadcn UI.
+- Loader mientras se cargan los datos.
 
-## Expanding the ESLint configuration
+## 📂 Rutas del proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Ruta | Descripción |
+|---|---|
+| `/` | Página principal con presentación y países destacados |
+| `/entities` | Listado completo de países consumidos desde la API |
+
+## ⚙️ Pasos para ejecutar el servidor
+
+Clonar el repositorio:
+
+```bash
+git clone https://github.com/diegosotelo-png/countries-react.git
+cd countries-react
+npm install
