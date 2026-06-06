@@ -40,3 +40,12 @@ Clonar el repositorio:
 
 ```bash
 git clone https://github.com/diegosotelo-png/countries-react.git
+## 🌐 Deploy en Vercel
+
+Aplicación desplegada en Vercel:
+
+https://countries-react-weld.vercel.app/
+
+Ruta de países:
+
+https://countries-react-weld.vercel.app/entities
