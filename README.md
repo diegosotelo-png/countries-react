@@ -38,6 +38,10 @@ Aplicación desplegada en Vercel:
 
 https://countries-react-weld.vercel.app/
 
+## 🎥 Video demostrativo
+
+https://youtu.be/FOm9cj5TSio
+
 ## ⚙️ Pasos para ejecutar el servidor
 
 Clonar el repositorio:
