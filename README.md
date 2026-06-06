@@ -32,7 +32,11 @@ La aplicación consume datos desde la API pública REST Countries y muestra info
 | `/` | Página principal con presentación y países destacados |
 | `/entities` | Listado completo de países consumidos desde la API |
 
+## 🌐 Deploy en Vercel
 
+Aplicación desplegada en Vercel:
+
+https://countries-react-weld.vercel.app/
 
 ## ⚙️ Pasos para ejecutar el servidor
 
@@ -40,12 +44,3 @@ Clonar el repositorio:
 
 ```bash
 git clone https://github.com/diegosotelo-png/countries-react.git
-## 🌐 Deploy en Vercel
-
-Aplicación desplegada en Vercel:
-
-https://countries-react-weld.vercel.app/
-
-Ruta de países:
-
-https://countries-react-weld.vercel.app/entities
